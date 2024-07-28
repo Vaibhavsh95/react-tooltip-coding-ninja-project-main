@@ -6,6 +6,7 @@ const App = () => {
   const [placement, setPlacement] = useState("top");
 
   // function to update placement state when button is clicked
+  // this is my code
   const onBtnClick = (_, position) => {
     setPlacement(position);
   };
