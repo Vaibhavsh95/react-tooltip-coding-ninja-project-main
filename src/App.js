@@ -7,6 +7,7 @@ const App = () => {
 
   // function to update placement state when button is clicked
   // this is my code
+  //checking
   const onBtnClick = (_, position) => {
     setPlacement(position);
   };
